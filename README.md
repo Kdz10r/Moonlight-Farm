@@ -1,6 +1,6 @@
 # 🌙 Moonlight Farm - NOT FINISHED YET
 
-![GitHub License](https://img.shields.io/github/license/jakub/Moonlight-Farm?style=for-the-badge)
+![GitHub License](https://img.shields.io/badge/license-MIT-blue)
 ![.NET 10](https://img.shields.io/badge/.NET-10.0-512bd4?style=for-the-badge&logo=dotnet)
 ![SignalR](https://img.shields.io/badge/SignalR-Live--Sync-orange?style=for-the-badge)
 ![Canvas API](https://img.shields.io/badge/HTML5-Canvas-E34F26?style=for-the-badge&logo=html5)
