@@ -1,4 +1,4 @@
-# 🌙 Moonlight Farm - Stardew Style Farming RPG 🚜
+# 🌙 Moonlight Farm - NOT FINISHED YET
 
 ![GitHub License](https://img.shields.io/github/license/jakub/Moonlight-Farm?style=for-the-badge)
 ![.NET 10](https://img.shields.io/badge/.NET-10.0-512bd4?style=for-the-badge&logo=dotnet)
