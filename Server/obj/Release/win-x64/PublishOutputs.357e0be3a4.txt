@@ -1,0 +1,3 @@
+C:\Users\user\Music\Moonlight Farm\publish_output_sc\appsettings.json
+C:\Users\user\Music\Moonlight Farm\publish_output_sc\MoonlightFarm.pdb
+C:\Users\user\Music\Moonlight Farm\publish_output_sc\MoonlightFarm.exe

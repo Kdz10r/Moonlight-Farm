@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlight Farm - Stardew Style</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="room-menu">
+        <h1>Moonlight Farm</h1>
+        <p>Witaj na farmie! Wybierz pokój, aby rozpocząć grę wieloosobową.</p>
+        <input type="text" id="room-id-input" placeholder="ID Pokoju (np. farma1)" value="default">
+        <button id="join-btn">Dołącz do gry</button>
+    </div>
+
+    <div id="game-container" style="display: none;">
+        <div id="ui-overlay">
+            <div id="room-display">Pokój: default</div>
+            <div id="time-display">Dzień 1 - 06:00</div>
+            <div id="money-display" style="font-size: 18px; color: #f1c40f; text-shadow: 2px 2px 0 #000;">500g</div>
+            <div id="energy-container">
+                <div id="energy-bar"></div>
+                <div id="energy-text">100 / 100</div>
+            </div>
+            <div id="inventory-bar"></div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div id="controls-hint">WSAD - Ruch | LPM - Akcja | 1-9 - Wybór | R - Sen | F - Łowienie</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.min.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/cookies.js"></script>
+    <script src="js/world.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
